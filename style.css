@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap');
+:root{
+  --baloo-font-family:'Baloo Thambi 2', cursive;  
+  --raleway-font-family:'Raleway', sans-serif;  
+  --rubik-font-family:'Rubik', sans-serif;  
+  --color-primary: #003859;
+  --color-secondary: #00A5C4;
+  --color-yellow: #FFD289; 
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-20: 20px;
+
+}
+button, button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.address{
+    font-size: var(--font-size-12);
+}
+.has-link{
+    font-family: var(--raleway-font-family);
+    font-size: var(--font-size-14);
+}
+.navbar{
+    background-color: var(--color-secondary );
+}
+.navbar-nav{
+    font-family: var(--rubik-font-family);
+}
+.shopping-cart{
+    font-size: var(--font-size-14);
+    font-family: var(--raleway-font-family);
+}
+.holding-two{
+    background-color: var(--color-primary);
+}
+.has-icon{
+    font-size: var(--font-size-16);
+}
+.top-sale-heading{
+    font-family: var(--rubik-font-family);
+    font-size: var(--font-size-20);
+}
+.product{
+    font-family: var(--raleway-font-family);
+}
+.item img{
+    width:640px;
+  height:360px;
+}
+/* First carousel styling begins */
+.intro-text{
+    margin-top: 10.5rem;
+    margin-left: 3.125rem;
+    font-size: 40px;
+}
+
+/* second carousel styling begins */
+
+.card{
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 3.125rem;
+}
+.card .card-img-top{
+    width: 100%;
+    object-fit: cover;
+}
